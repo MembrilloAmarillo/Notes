@@ -84,7 +84,50 @@ h_{ck}(t) = \left\{ \begin{array}{l}
 	* For classification purposes, new data whose classification is known are needed
 
 
- 
+```octave
+% Load the dataset
+% Assume customerData is an NxM matrix, where N is the number of customers,
+% and M is the number of features.
+load customerData.mat % Replace with your data loading mechanism
+
+% Normalize the data
+customerData = normalize(customerData);
+
+% Create a Self-Organizing Map (SOM)
+dimensions = [10 10]; % Define the map dimensions
+som_net = selforgmap(dimensions);
+
+% Train the SOM
+som_net = train(som_net, customerData');
+
+% Visualize the SOM
+figure;
+plotsomtop(som_net); % Topology of the SOM
+title('SOM Topology');
+
+figure;
+plotsomnc(som_net); % Neighbor connections
+title('SOM Neighbor Connections');
+
+figure;
+plotsompos(som_net, customerData'); % Data point positions on the SOM
+title('Customer Data Points on SOM');
+
+% Cluster the data
+som_output = som_net(customerData');
+[~, clusterIndices] = max(som_output, [], 1);
+
+% Visualize clusters
+figure;
+gscatter(customerData(:, 1), customerData(:, 2), clusterIndices);
+title('Customer Segments');
+xlabel('Feature 1 (e.g., Annual Income)');
+ylabel('Feature 2 (e.g., Spending Score)');
+
+% Display the clustering result
+disp('Cluster indices for each customer:');
+disp(clusterIndices);
+```
 
 
 
