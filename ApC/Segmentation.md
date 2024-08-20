@@ -5,7 +5,7 @@ The encoder extracts features from the image through filters. The decoder is res
 
 The **decoder (upsampler)** access the low-lever features produced by the encoders **(pooling)** layers. Because the encoder reduces the image resolution, the segmentation lacks well-defined edges, meaning that the boundaries between the images are not clearly defined.
 
-The is accomplished by skip connections. ==**Skip connections** bypass layers and transfer the information intact to the next layers. They are used to pass the information from early layer of the encoder to the decoder, bypassing the downsampling layers.== And indeed, this helped improve the details of the segmentation with much more accurate shapes and edges.
+The is accomplished by skip connections. ==[[Skip connections]] bypass layers and transfer the information intact to the next layers. They are used to pass the information from early layer of the encoder to the decoder, bypassing the downsampling layers.== And indeed, this helped improve the details of the segmentation with much more accurate shapes and edges.
 By using a skip connection, we provide an alternative path for the gradient (with backpropagation). Is is experimentally validated that this addiation paths are often beneficial for the model convergence. 
 > Skip connections skip some layer in the neural network and feeds the output of one layer as the input to the next layers (insetead of only the next one)
 
@@ -13,7 +13,7 @@ By using a skip connection, we provide an alternative path for the gradient (wit
 
 Is one of the fundamentals tasks in computer vision alongside with object recognition and detection. In semantic segmentation, the goal is to classify each pixel of the image in a specific category. The difference from image classification is that we do no classify the whole image in on class but each individual pixel. So we have a set of predefined categories and we want to assign a label in each pixel of the image. And we do this assignment based on the context of the different objects in the image.
 #### U-Nets: long skip connections
-This kind of network is used for tasks that the prediction has the same spatial dimension as the input such as [[https://theaisummer.com/Semantic_Segmentation/]], optical flow estimation, video prediction, etc.
+This kind of network is used for tasks that the prediction has the same spatial dimension as the input such as https://theaisummer.com/Semantic_Segmentation/, optical flow estimation, video prediction, etc.
 ![[Pasted image 20240813181515.png]]
 This would be the encoding part, we could implement the simmetric encoder just changing the max pooling for up-convolution 2x2 ( using padding ) and for the final result using a conv 1x1 and reducing the filters to the desired output.
 
@@ -45,3 +45,8 @@ This would be the encoding part, we could implement the simmetric encoder just c
 | Rel10       | 34 x 34 x 1024  | Relu            | 1024    |
 | Conv11      | 32 x 32 x 1024  | Conv 3 x 3      | 1024    |
 | Rel11       | 32 x 32 x 1024  | Relu            | 1024    |
+> [!info]
+> Original paper: [[U_Net.pdf]]
+
+
+

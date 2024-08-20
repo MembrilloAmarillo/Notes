@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "872670d325d6a5db",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f1e89bb6186156d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5227b457e4d75b75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ApC/Self Organizing Maps (SOM).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c8d094947dabc78d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/SOM_Draw.excalidraw.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bca9831be6b0e25c",
+    "type": "split",
+    "children": [
+      {
+        "id": "430e3e19d17e00ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab2388e42c5dbfc5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "277c45d1dcb153c9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "12fedf8a036d945f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "90c34b1502e1ac7e",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd5a406e9f419692",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "32c82f72dacc36b2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ApC/Self Organizing Maps (SOM).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "57138a5bf85122a0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ApC/Self Organizing Maps (SOM).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c08cb24dba7dd753",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "54b28ae0851a1e0f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ApC/Self Organizing Maps (SOM).md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "5227b457e4d75b75",
+  "lastOpenFiles": [
+    "Excalidraw/SOM_Draw.excalidraw.md",
+    "ApC/Self Organizing Maps (SOM).md",
+    "papers/U_Net.pdf",
+    "ApC/Segmentation.md",
+    "ApC/Pasted image 20240813181515.png",
+    "Excalidraw",
+    "Skip connections.md",
+    "papers",
+    "Untitled.canvas"
+  ]
+}
