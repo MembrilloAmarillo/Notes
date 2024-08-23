@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "f68ebf45ff75e7eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ApC/Neural Networks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ac822ea7b0bb3b36",
             "type": "leaf",
             "state": {
@@ -29,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211,
-    "collapsed": true
+    "width": 211
   },
   "right": {
     "id": "90c34b1502e1ac7e",
@@ -96,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ApC/Backpropagation.md",
+                "file": "ApC/Neural Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ApC/Backpropagation.md",
+                "file": "ApC/Neural Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ApC/Backpropagation.md"
+                "file": "ApC/Neural Networks.md"
               }
             }
           }
@@ -158,10 +170,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5227b457e4d75b75",
+  "active": "f68ebf45ff75e7eb",
   "lastOpenFiles": [
-    "2024-08-21.md",
+    "Excalidraw/Neuron.excalidraw.md",
+    "ApC/Neural Networks.md",
     "ApC/Backpropagation.md",
+    "ApC/Neural Networks",
+    "2024-08-21.md",
     "ApC/Segmentation.md",
     "ApC/Self Organizing Maps (SOM).md",
     "Excalidraw/Backprop_1.excalidraw.md",
