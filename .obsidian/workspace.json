@@ -11,11 +11,9 @@
             "id": "5227b457e4d75b75",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ApC/Backpropagation.md",
-                "mode": "source",
-                "source": false
+                "file": "papers/U_Net.pdf"
               }
             }
           },
@@ -28,16 +26,6 @@
                 "file": "ApC/Neural Networks.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "ac822ea7b0bb3b36",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Backprop_1.excalidraw.md"
               }
             }
           }
@@ -172,17 +160,18 @@
   },
   "active": "f68ebf45ff75e7eb",
   "lastOpenFiles": [
-    "Excalidraw/Neuron.excalidraw.md",
+    "ApC/Segmentation.md",
+    "papers/VGG.pdf",
     "ApC/Neural Networks.md",
+    "Excalidraw/Backprop_1.excalidraw.md",
+    "papers/U_Net.pdf",
     "ApC/Backpropagation.md",
+    "Excalidraw/Neuron.excalidraw.md",
     "ApC/Neural Networks",
     "2024-08-21.md",
-    "ApC/Segmentation.md",
     "ApC/Self Organizing Maps (SOM).md",
-    "Excalidraw/Backprop_1.excalidraw.md",
     "Excalidraw/Pasted image 20240813181515.png",
     "Excalidraw/SOM_Draw.excalidraw.md",
-    "papers/U_Net.pdf",
     "Excalidraw",
     "Skip connections.md",
     "papers",
